@@ -854,7 +854,7 @@
 	width:100%;
 	z-index:9
 }
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1024px) {
 	.sidebar-wrapper {
 		left:-300px;
 		position:absolute
@@ -952,6 +952,7 @@
 }
 .layout-horizontal .main-navbar {
 	background-color:#52BE80;
+	/*background-color:#435ebe;*/
 	padding:1rem
 }
 .layout-horizontal .main-navbar ul {
@@ -976,7 +977,7 @@
 	position:relative
 }
 .layout-horizontal .main-navbar ul>.menu-item .menu-link {
-	color:#dee2e6
+	color:#fff
 }
 .layout-horizontal .main-navbar ul>.menu-item.has-sub .menu-link {
 	padding-right:1.3rem
@@ -1060,7 +1061,7 @@
 	visibility:hidden;
 	z-index:999
 }
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1024px) {
 	.layout-horizontal .main-navbar {
 		background-color:#f5f7fc;
 		display:none;
@@ -1317,7 +1318,7 @@
 	margin-left:300px;
 	padding:2rem
 }
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1024px) {
 	#main {
 		margin-left:0
 	}
